@@ -1,0 +1,28 @@
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/fragment_tab1"
+        tools:context="com.android.intermed.tugas1.fragment.Tab1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="486dp"
+            android:id="@+id/lv_item1"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@android:color/black"
+            android:dividerHeight="0.5dp">
+        </ListView>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="PESAN"/>
+
+
+
+    </LinearLayout>
+
